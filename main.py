@@ -1,4 +1,4 @@
-with open('Electro-Myography-EMG-Dataset/raw_emg_data_unprocessed/index_finger_motion_raw.csv') as f:
+with open('raw_emg_data_unprocessed/index_finger_motion_raw.csv') as f:
     data = []
     for line in f:
         data.append(list(map(float, line.strip().split(','))))
